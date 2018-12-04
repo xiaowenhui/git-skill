@@ -1,4 +1,15 @@
-# Git
+使用步骤
+---
+
+1. 安装git
+2. 设置全局的 name、email
+3. 生成本地SSH key
+4. github 上添加SSHkey
+5. 新建本地仓库
+6. github上新建远程仓库
+7. 将本地仓库和远程仓库关联起来
+8. 第一次提交
+9. 后续提交
 
 创建本地仓库
 --
@@ -62,7 +73,7 @@ ssh -T git@github.com
 1. 生成
 2. git remote add origin git@github.com:xiaowenhui/git-test.git
 3. **第一次提交，git push -u  origin  master**
-4. 
+4. git push  --set-upstream origin master
 
 
 
