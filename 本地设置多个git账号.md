@@ -1,8 +1,8 @@
-#公司有gitlab，还有github，这就需要使用两个git账号，一个用作公司项目，一个用作自己的项目，本地该如何配置呢
+公司有gitlab，还有github，这就需要使用两个git账号，一个用作公司项目，一个用作自己的项目，本地该如何配置呢
 
-#一、安装git，可以使用git-gui，git-bash
+一、安装git，可以使用git-gui，git-bash
 
-#二、配置第一个账号
+二、配置第一个账号
 
  1）进入C:\Users\wenhui.xiao\.ssh目录
 
@@ -24,7 +24,7 @@
 
      ssh git@github.com
 
-#三、配置第二个账号
+三、配置第二个账号
 
  1）进入C:\Users\wenhui.xiao\.ssh目录
 
@@ -46,7 +46,7 @@
 
      ssh   http://git.51caocao.cn
 
-#四、配置config文件
+四、配置config文件
 
  1）进入C:\Users\wenhui.xiao\.ssh目录
 
